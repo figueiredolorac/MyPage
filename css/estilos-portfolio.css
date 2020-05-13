@@ -1,0 +1,94 @@
+/* reset do css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Pangolin', cursive;
+}
+
+header {
+    padding: 20px 0;
+}
+
+main {
+    background-image: linear-gradient(aqua, lightcyan, aquamarine, mediumturquoise);
+}
+
+.menu {
+    background-image: linear-gradient(aqua, lightcyan, aquamarine, mediumturquoise);
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: dodgerblue;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: cornflowerblue;
+    color: royalblue;
+    text-decoration: underline;
+}
+
+.conhecimentos {
+	width: 940px;
+	margin: 0 0 0 25%;
+    padding: 50px 0;
+}
+
+.conhecimentos li {
+    background: white;
+    border: 2px solid midnightblue;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 2% 2% 2%;
+    padding: 30px 20px;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;	
+}
+
+.conhecimentos li:hover {
+	border-color: cadetblue;
+}
+
+.conhecimentos li:active {
+	border-color: powderblue;
+}
+
+.conhecimentos li:hover h2 {
+	font-size: 34px;
+}
+
+.conhecimentos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.img-portfolio {
+    border-radius: 20px;
+    margin-top: 2%;
+    height: 180px;
+    width: 180px;
+    
+}

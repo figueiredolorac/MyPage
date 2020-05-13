@@ -1,0 +1,76 @@
+/* reset do css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('../img/matrix.gif');
+    background-size: auto 100vh;
+    font-family: 'Pangolin', cursive;
+    font-size: 12px;
+    height: 100vh;
+}
+
+@media (min-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+header {
+    align-items: center;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+}
+
+.menu {
+    background-image: linear-gradient(#ADFF2F,#00FF00,#90EE90,#228B22,#006400);
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: teal;
+    color: limegreen;
+    text-decoration: underline;
+}
+
+.site-title {
+    color: white;
+    font-size: 5em;
+    margin-top: 15%;
+    text-align: center;
+    
+}
+
+.site-subtitle{
+    color: whitesmoke;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
